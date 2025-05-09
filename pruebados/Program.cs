@@ -6,7 +6,9 @@ namespace capturanombre
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Escriba su nombre");
+            Console.WriteLine("Escriba su nombre: ");
+            string nom = Console.ReadLine();
+            Console.WriteLine("Su nombre es: " + nom);
         }
     }
 }
